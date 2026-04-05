@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INSCRIÇÃO - IFSP - Pirituba</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="topo" class="topo">
+    <nav class="menu-superior">
+      <a href="index.html">INÍCIO</a>
+      <a href="contato.html">CONTATO</a>
+      <a href="cursos.html">CURSOS</a>
+      <a href="sobre.html">SOBRE</a>
+      <a href="inscricao.html">INSCRIÇÃO</a>
+    </nav>
+  </header>
+
+  <main class="pagina">
+
+    <section class="secao">
+      <h1>Formulário de Inscrição</h1>
+
+      <form>
+        <label for="nome">Nome completo</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required>
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" name="telefone">
+
+        <label for="nascimento">Data de nascimento</label>
+        <input type="date" id="nascimento" name="nascimento">
+
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" name="idade" min="14" max="100">
+
+        <label for="curso">Curso de interesse</label>
+        <select id="curso" name="curso">
+          <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+          <option value="eng">Engenharia de Produção</option>
+          <option value="gti">Gestão em Tecnologia da Informação</option>
+          <option value="letras">Letras</option>
+          <option value="gp">Gestão Pública</option>
+        </select>
+
+        <label for="site">Site pessoal</label>
+        <input type="url" id="site" name="site">
+
+        <label for="busca">Busca</label>
+        <input type="search" id="busca" name="busca">
+
+        <label for="cor">Cor favorita</label>
+        <input type="color" id="cor" name="cor">
+
+        <label>Turno</label>
+        <div class="grupo-opcoes">
+          <label><input type="radio" name="turno" value="manha"> Manhã</label>
+          <label><input type="radio" name="turno" value="tarde"> Tarde</label>
+          <label><input type="radio" name="turno" value="noite"> Noite</label>
+        </div>
+
+        <label>
+          <input type="checkbox" name="termos" required>
+          Aceito os termos de inscrição
+        </label>
+
+        <button type="submit">Enviar inscrição</button>
+      </form>
+    </section>
+
+    <section class="secao rodape-icones">
+      <a href="#topo">
+        <img src="imagens/Topo.png" alt="Voltar ao topo" class="icone-topo">
+      </a>
+
+      <a href="https://www.facebook.com/ifsppirituba" target="_blank">
+        <img src="imagens/facebook.png" alt="Facebook" class="icone-facebook">
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="rodape-site">
+    <p><strong>INSTITUTO FEDERAL DE SÃO PAULO - CÂMPUS PIRITUBA</strong></p>
+    <p>Aplicação desenvolvida para a Semana 05 de HTML5</p>
+  </footer>
+
+</body>
+</html>
