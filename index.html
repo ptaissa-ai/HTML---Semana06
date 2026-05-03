@@ -6,29 +6,33 @@
   <title>INÍCIO - IFSP - Pirituba</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <header id="topo" class="topo">
-  <nav class="menu-superior">
-    <a href="index.html">INÍCIO</a>
-    <a href="contato.html">CONTATO</a>
-    <a href="cursos.html">CURSOS</a>
-    <a href="eventos.html">EVENTOS</a>
-    <a href="sobre.html">SOBRE</a>
-    <a href="inscricao.html">INSCRIÇÃO</a>
-  </nav>
-</header>
+    <nav class="menu-superior">
+      <a href="index.html">INÍCIO</a>
+      <a href="contato.html">CONTATO</a>
+      <a href="cursos.html">CURSOS</a>
+      <a href="eventos.html">EVENTOS</a>
+      <a href="sobre.html">SOBRE</a>
+      <a href="inscricao.html">INSCRIÇÃO</a>
+    </nav>
+  </header>
 
-  <main class="pagina">
+  <main class="pagina-grid">
 
     <section class="hero">
       <div class="hero-conteudo">
         <p class="hero-kicker">INSTITUTO FEDERAL DE SÃO PAULO - CÂMPUS PIRITUBA</p>
+
         <h1>Bem-vindo ao portal acadêmico</h1>
+
         <p>
           Esta aplicação foi desenvolvida com HTML5 e CSS, mantendo os elementos das semanas anteriores
-          e adicionando novas páginas com formulários HTML5.
+          e aplicando propriedades de Grid Layout na página inicial.
         </p>
+
         <div class="hero-botoes">
           <a class="botao-principal" href="cursos.html">Ver cursos</a>
           <a class="botao-secundario" href="inscricao.html">Fazer inscrição</a>
@@ -40,8 +44,9 @@
       </div>
     </section>
 
-    <section class="secao">
+    <section class="secao cursos-home">
       <h2>Cursos</h2>
+
       <div class="cards-cursos">
         <a class="card-curso" href="cursos.html#ads">
           <h3>Análise e Desenvolvimento de Sistemas</h3>
@@ -70,22 +75,36 @@
       </div>
     </section>
 
-    <section class="secao">
+    <section class="secao eventos-home">
       <h2>Eventos</h2>
-      <img src="evento.jpg" alt="Evento IFSP" class="img-evento">
+
+      <div class="evento-grid">
+        <div>
+          <h3>Eventos acadêmicos do câmpus</h3>
+          <p>
+            Acompanhe as atividades, palestras, encontros e ações desenvolvidas no
+            Instituto Federal de São Paulo - Câmpus Pirituba.
+          </p>
+        </div>
+
+        <img src="evento.jpg" alt="Evento IFSP" class="img-evento">
+      </div>
     </section>
 
-    <section class="secao destaque">
+    <section class="secao destaque biblioteca-home">
       <h2>Biblioteca</h2>
+
       <p>
         Conheça os novos títulos disponíveis na biblioteca do câmpus e acompanhe as atualizações de
         materiais acadêmicos e informativos.
       </p>
+
       <p class="publicado">Publicado: Quarta-feira, 14 de agosto de 2019</p>
     </section>
 
-    <section class="secao">
+    <section class="secao suap-home">
       <h2>Conheça o SUAP</h2>
+
       <div class="bloco-video">
         <iframe
           src="https://www.youtube.com/embed/yVbOcB1ryh0"
@@ -115,7 +134,7 @@
 
   <footer class="rodape-site">
     <p><strong>INSTITUTO FEDERAL DE SÃO PAULO - CÂMPUS PIRITUBA</strong></p>
-    <p>Aplicação desenvolvida para a Semana 05 de HTML5</p>
+    <p>Aplicação desenvolvida para a Semana 07 com CSS Grid Layout</p>
   </footer>
 
 </body>
